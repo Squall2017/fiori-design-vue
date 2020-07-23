@@ -1,11 +1,11 @@
 <template>
-  <h1>Helloweww {{ name }}</h1>
+  <h1>Hello{{ name }}</h1>
 </template>
 
 <script>
 export default {
   setup() {
-    return { name: 'Jane Doe' }
+    return { name: 'Sky' }
   }
 }
 </script>
