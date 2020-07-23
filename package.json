@@ -1,8 +1,8 @@
 {
   "name": "fiori-design-vue",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A Component Library for Vue.js.",
-  "main": "./dist/library.ssr.js",
+  "main": "index.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c --environment BUILD:production",
@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/Squall2017/fiori-design-vue/issues"
   },
+  "files": [
+    "index.js",
+    "dist"
+  ],
   "homepage": "https://github.com/Squall2017/fiori-design-vue#readme",
   "engines": {
     "node": ">=10.0.0"
@@ -32,6 +36,7 @@
     "prettier": "^1.19.1",
     "rollup": "^2.22.2",
     "rollup-plugin-eslint": "^7.0.0",
-    "rollup-plugin-vue": "^6.0.0-beta.9"
+    "rollup-plugin-vue": "^6.0.0-beta.9",
+    "@rollup/plugin-commonjs": "^14.0.0"
   }
 }
