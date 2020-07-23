@@ -1,0 +1,25 @@
+{
+  "name": "fiori-design-vue",
+  "version": "1.0.0",
+  "description": "A Component Library for Vue.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squall2017/fiori-design-vue.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Squall2017/fiori-design-vue/issues"
+  },
+  "homepage": "https://github.com/Squall2017/fiori-design-vue#readme",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.22.2"
+  }
+}
