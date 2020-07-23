@@ -3,7 +3,7 @@ import { eslint } from 'rollup-plugin-eslint'
 export default [
   // ESM build to be used with webpack/rollup.
   {
-    input: './index.js',
+    input: './packages/index.js',
     output: {
       format: 'esm',
       file: 'dist/library.esm.js'
@@ -17,7 +17,7 @@ export default [
   },
   // SSR build.
   {
-    input: './index.js',
+    input: './packages/index.js',
     output: {
       format: 'cjs',
       file: 'dist/library.ssr.js'

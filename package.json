@@ -2,7 +2,7 @@
   "name": "fiori-design-vue",
   "version": "1.0.0",
   "description": "A Component Library for Vue.js.",
-  "main": "index.js",
+  "main": "./dist/library.ssr.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c --environment BUILD:production",
