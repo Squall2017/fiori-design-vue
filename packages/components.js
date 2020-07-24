@@ -1,3 +1,2 @@
-import MyComponent from './MyComponent.vue'
-import OtherComponent from './OtherComponent.vue'
-export { MyComponent, OtherComponent }
+import button from './button/index.js'
+export { button }

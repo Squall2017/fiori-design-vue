@@ -1,11 +1,12 @@
+import './theme/css_variables.css'
 import * as components from './components.js'
 const plugin = {
   install: (app, options) => {
     if (typeof app !== 'undefined') {
-      for (const name in components) {
-        app.component(name, components[name])
+      for (const key in components) {
+        app.component(components[key].name, components[key])
       }
-      console.log(options)
+      console.log('插件选项', options)
     }
   }
 }

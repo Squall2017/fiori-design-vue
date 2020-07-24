@@ -1,0 +1,48 @@
+/* 
+.fi-button:not([hidden]) {
+	display: inline-block;
+} */
+
+.fi-button {
+  min-width: var(--_ui5_button_base_min_width);
+	height: var(--_ui5_button_base_height);
+	font-family: var(--sapFontFamily);
+	font-size: var(--sapFontSize);
+	text-shadow: var(--_ui5_button_text_shadow);
+	border-radius: var(--_ui5_button_border_radius);
+	border-width: 0.0625rem;
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px solid var(--sapButton_BorderColor);
+	color: var(--sapButton_TextColor);
+	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+	padding: 0 var(--_ui5_button_base_padding);
+	position: relative;
+  background: transparent;
+  /* border: none; */
+}
+
+/* .fi-butto[disabled] {
+	pointer-events: none;
+}
+
+.fi-button:active {
+	background-image: none;
+	background-color: var(--sapButton_Active_Background);
+	border-color: var(--_ui5_button_active_border_color);
+	color: var(--sapButton_Active_TextColor);
+	text-shadow: none;
+}
+
+.fi-button:not([active]):hover,
+.fi-button:not([hidden]).ui5_hovered {
+	background: var(--sapButton_Hover_Background);
+} */
