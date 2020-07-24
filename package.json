@@ -1,6 +1,6 @@
 {
   "name": "fiori-design-vue",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "A Component Library for Vue.js.",
   "main": "index.js",
   "scripts": {
