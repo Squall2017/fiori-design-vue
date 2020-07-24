@@ -1,7 +1,7 @@
-/* 
+
 .fi-button:not([hidden]) {
 	display: inline-block;
-} */
+}
 
 .fi-button {
   min-width: var(--_ui5_button_base_min_width);
@@ -27,10 +27,9 @@
 	padding: 0 var(--_ui5_button_base_padding);
 	position: relative;
   background: transparent;
-  /* border: none; */
 }
 
-/* .fi-butto[disabled] {
+.fi-butto[disabled] {
 	pointer-events: none;
 }
 
@@ -45,4 +44,4 @@
 .fi-button:not([active]):hover,
 .fi-button:not([hidden]).ui5_hovered {
 	background: var(--sapButton_Hover_Background);
-} */
+}
