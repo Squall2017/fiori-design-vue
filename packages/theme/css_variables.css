@@ -1,0 +1,6 @@
+:root {
+  --_Fiori_FontFamily: "72","72full",Arial,Helvetica,sans-serif;
+  --_Fiori_FontSize: .875rem;
+  --_Fiori_Content_TextShadow: 0 0 0.125rem #fff;
+  --_Fiori_Primary_HighlightSelectedIcons_Color: #0854a0;
+}

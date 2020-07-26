@@ -5,30 +5,12 @@
 </template>
 
 <script>
-// import { ref } from 'vue'
 export default {
   name: 'FiButton',
-  data() {
-    return {
-      color: 'red'
-    }
-  },
-  setup() {
-    // const color = ref('--sapButton_Hover_TextColor')
-    // // computed(() => {
-    // //   if ($props.design) {
-    // //     color.value = '--sapButton_Hover_TextColor'
-    // //   }
-    // // })
-    // return {
-    //   color
-    // }
+  props: {},
+  setup($props, context) {
+    console.log('props', $props)
+    console.log('procontextps', context.slots.default)
   }
 }
 </script>
-
-<style :vars="{ color }">
-.fi-button {
-  color: var(--color);
-}
-</style>

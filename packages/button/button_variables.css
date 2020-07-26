@@ -1,5 +1,14 @@
 :root {
-  --sapButton_BorderWidth: .0625rem;
+  --_fiori_button_minWidth: 2.5rem;
+  --_fiori_button_height: 2.5rem;
+  --_fiori_button_fontFamily: var(--_Fiori_FontFamily);
+  --_fiori_button_fontSize: var(--_Fiori_FontSize);
+  --_fiori_button_textShadow: var(--_Fiori_Content_TextShadow);
+  --_fiori_button_borderRadius: 0.2rem;
+  --_fiori_button_borderWidth: 0.0625rem;
+  --_fiori_button_borderColor: var(--_Fiori_Primary_HighlightSelectedIcons_Color);
+  --_fiori_button_textColor: var(--_Fiori_Primary_HighlightSelectedIcons_Color);
+  /* --sapButton_BorderWidth: .0625rem;
   --sapButton_BorderCornerRadius: .25rem;
   --sapButton_Background: #e29d12;
   --sapButton_BorderColor: #0854a0;
@@ -139,5 +148,5 @@
 	--_ui5_button_positive_focus_border_color: var(--sapButton_Accept_BorderColor);
 	--_ui5_button_negative_focus_border_color: var(--sapButton_Reject_BorderColor);
 	--_ui5_button_negative_active_border_color: var(--sapButton_Reject_Active_BorderColor);
-	--_ui5_button_emphasized_focused_border_color: var(--sapButton_Emphasized_BorderColor);
+	--_ui5_button_emphasized_focused_border_color: var(--sapButton_Emphasized_BorderColor); */
 }

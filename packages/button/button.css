@@ -1,4 +1,19 @@
-
+.fi-button:not([hidden]) {
+	display: inline-block;
+}
+.fi-button {
+	min-width: var(--_fiori_button_minWidth);
+	height: var(--_fiori_button_height);
+	font-family: var(--_fiori_button_fontFamily);
+	font-size: var(--_fiori_button_fontSize);
+	text-shadow: var(--_fiori_button_textShadow);
+	border-radius: var(--_fiori_button_borderRadius);
+	cursor: pointer;
+	background-color: transparent;
+	border: var(--_fiori_button_borderWidth) solid var(--_fiori_button_borderColor);
+	color: var(--_fiori_button_textColor);
+}
+/* 
 .fi-button:not([hidden]) {
 	display: inline-block;
 }
@@ -44,4 +59,4 @@
 .fi-button:not([active]):hover,
 .fi-button:not([hidden]).ui5_hovered {
 	background: var(--sapButton_Hover_Background);
-}
+} */
