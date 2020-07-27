@@ -1,3 +1,4 @@
+import './theme/main.css'
 import './theme/css_variables.css'
 import * as components from './components.js'
 const plugin = {

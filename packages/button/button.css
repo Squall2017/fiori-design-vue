@@ -1,62 +1,56 @@
 .fi-button:not([hidden]) {
 	display: inline-block;
 }
-.fi-button {
-	min-width: var(--_fiori_button_minWidth);
-	height: var(--_fiori_button_height);
-	font-family: var(--_fiori_button_fontFamily);
-	font-size: var(--_fiori_button_fontSize);
-	text-shadow: var(--_fiori_button_textShadow);
-	border-radius: var(--_fiori_button_borderRadius);
-	cursor: pointer;
-	background-color: transparent;
-	border: var(--_fiori_button_borderWidth) solid var(--_fiori_button_borderColor);
-	color: var(--_fiori_button_textColor);
-}
-/* 
-.fi-button:not([hidden]) {
-	display: inline-block;
-}
 
 .fi-button {
-  min-width: var(--_ui5_button_base_min_width);
-	height: var(--_ui5_button_base_height);
-	font-family: var(--sapFontFamily);
-	font-size: var(--sapFontSize);
-	text-shadow: var(--_ui5_button_text_shadow);
-	border-radius: var(--_ui5_button_border_radius);
-	border-width: 0.0625rem;
+	min-width: var(--_fiori_button_base_min_width);
+	height: var(--_fiori_button_base_height);
+	font-family: var(--_fiori_button_base_font_family);
+	font-size: var(--_fiori_button_base_font_size);
+	text-shadow: var(--_fiori_button_base_text_shadow);
+	border-radius: var(--_fiori_button_base_border_radius);
+	border-width: var(--_fiori_button_base_border_width);
 	cursor: pointer;
-	background-color: transparent;
-	border: 1px solid var(--sapButton_BorderColor);
-	color: var(--sapButton_TextColor);
 	box-sizing: border-box;
 	white-space: nowrap;
 	overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-  display: flex;
+	text-overflow: ellipsis;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	outline: none;
-	padding: 0 var(--_ui5_button_base_padding);
+	padding: 0 var(--_fiori_button_base_padding);
 	position: relative;
-  background: transparent;
 }
 
-.fi-butto[disabled] {
+.fi-button[disabled] {
 	pointer-events: none;
 }
 
-.fi-button:active {
+.fi-button:active:not([disabled]) {
 	background-image: none;
-	background-color: var(--sapButton_Active_Background);
-	border-color: var(--_ui5_button_active_border_color);
-	color: var(--sapButton_Active_TextColor);
-	text-shadow: none;
+	color: #fff;
 }
 
-.fi-button:not([active]):hover,
-.fi-button:not([hidden]).ui5_hovered {
-	background: var(--sapButton_Hover_Background);
+.fi-button-default {
+	background-color: #fff;
+	border: 1px solid var(--_fiori_button_default_border_color);
+	color: var(--_fiori_button_default_text_color);
+}
+
+.fi-button-default:active {
+	outline-color: #fff;
+	background-color: var(--_fiori_button_default_active_background_color);
+}
+
+.fi-button-default[focused] {
+	outline: var(--_fiori_button_default_outline);
+	outline-offset: var(--_fiori_button_default_outline_offset);
+}
+
+/* .fi-button-primary {
+	background-color: var(--_fiori_button_primary_background_color);
+	border: var(--_fiori_button_border_width) solid var(--_fiori_button_primary_border_color);
+	color: var(--_fiori_button_primary_text_color);
 } */
+

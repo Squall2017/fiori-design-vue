@@ -1,13 +1,24 @@
 :root {
-  --_fiori_button_minWidth: 2.5rem;
-  --_fiori_button_height: 2.5rem;
-  --_fiori_button_fontFamily: var(--_Fiori_FontFamily);
-  --_fiori_button_fontSize: var(--_Fiori_FontSize);
-  --_fiori_button_textShadow: var(--_Fiori_Content_TextShadow);
-  --_fiori_button_borderRadius: 0.2rem;
-  --_fiori_button_borderWidth: 0.0625rem;
-  --_fiori_button_borderColor: var(--_Fiori_Primary_HighlightSelectedIcons_Color);
-  --_fiori_button_textColor: var(--_Fiori_Primary_HighlightSelectedIcons_Color);
+  --_fiori_button_base_min_width: 2.25rem;
+  --_fiori_button_base_height: 2.25rem;
+  --_fiori_button_base_font_family: var(--_Fiori_Font_Family);
+  --_fiori_button_base_font_size: var(--_Fiori_Font_Size);
+  --_fiori_button_base_text_shadow: var(--_Fiori_Content_Text_Shadow);
+  --_fiori_button_base_border_radius: 0.2rem;
+  --_fiori_button_base_border_width: 0.0625rem;
+  --_fiori_button_base_padding: 0.6875rem;
+
+
+  --_fiori_button_default_border_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  --_fiori_button_default_text_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  --_fiori_button_default_active_background_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  --_fiori_button_default_outline: 1px dotted #fff;
+  --_fiori_button_default_outline_offset: calc(-1 * .1875rem);
+  
+  --_fiori_button_primary_background_color: var(--_Fiori_Primary_Brand_Link_Color);
+  --_fiori_button_primary_border_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  --_fiori_button_primary_text_color: #fff;
+  
   /* --sapButton_BorderWidth: .0625rem;
   --sapButton_BorderCornerRadius: .25rem;
   --sapButton_Background: #e29d12;
