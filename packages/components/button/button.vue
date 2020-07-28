@@ -1,9 +1,5 @@
 <template>
-  <button
-    ref="root"
-    class="fi-button fi-button-default"
-    v-click-outside="onClickOutside"
-  >
+  <button v-click-attr class="fi-button fi-button-default">
     <span v-if="$slots.default"><slot></slot></span>
   </button>
 </template>
@@ -14,8 +10,7 @@ export default {
   name: 'FiButton',
   props: {},
   setup() {
-    function onClickOutside() {}
-    return { onClickOutside }
+    return {}
   }
 }
 </script>

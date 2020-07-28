@@ -18,12 +18,17 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	outline: none;
 	padding: 0 var(--_fiori_button_base_padding);
 	position: relative;
+	outline: var(--_fiori_button_base_outline);
+	outline-offset: var(--_fiori_button_base_outline_offset);
 }
 
+
+
 .fi-button[disabled] {
+	pointer-events: none;
+	opacity: 0.5;
 	pointer-events: none;
 }
 
@@ -38,15 +43,22 @@
 	color: var(--_fiori_button_default_text_color);
 }
 
-.fi-button-default:active {
-	outline-color: #fff;
-	background-color: var(--_fiori_button_default_active_background_color);
+.fi-button-default:not([active]):hover {
+	background: var(--_fiori_button_default_hover_background_color);
 }
 
 .fi-button-default[focused] {
-	outline: var(--_fiori_button_default_outline);
-	outline-offset: var(--_fiori_button_default_outline_offset);
+	color: var(--_fiori_button_default_focused_text_color);
+	outline-color: var(--_fiori_button_default_focused_outline_color);
 }
+.fi-button-default:active {
+	color: var(--_fiori_button_default_active_text_color);
+	outline-color: var(--_fiori_button_default_active_outline_color);
+	background-color: var(--_fiori_button_default_active_background_color);
+	text-shadow: none;
+}
+
+
 
 /* .fi-button-primary {
 	background-color: var(--_fiori_button_primary_background_color);

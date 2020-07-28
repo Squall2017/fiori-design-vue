@@ -7,13 +7,20 @@
   --_fiori_button_base_border_radius: 0.2rem;
   --_fiori_button_base_border_width: 0.0625rem;
   --_fiori_button_base_padding: 0.6875rem;
-
+  --_fiori_button_base_outline: 1px dotted transparent;
+  --_fiori_button_base_outline_offset: calc(-1 * .1875rem);
 
   --_fiori_button_default_border_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
   --_fiori_button_default_text_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  --_fiori_button_default_hover_background_color: var(--_Fiori_Default_Hover_Background_Color);
+  
+  --_fiori_button_default_focused_text_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  --_fiori_button_default_focused_outline_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
+  
+  --_fiori_button_default_active_text_color: #fff;
+  --_fiori_button_default_active_outline_color: #fff;
   --_fiori_button_default_active_background_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
-  --_fiori_button_default_outline: 1px dotted #fff;
-  --_fiori_button_default_outline_offset: calc(-1 * .1875rem);
+
   
   --_fiori_button_primary_background_color: var(--_Fiori_Primary_Brand_Link_Color);
   --_fiori_button_primary_border_color: var(--_Fiori_Primary_Highlight_Selected_Icons_Color);
